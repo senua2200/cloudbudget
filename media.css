@@ -1,0 +1,289 @@
+/* 
+стилизация header(max)
+info(max)
+focused(max)
+footer(max)
+*/
+
+
+@media(max-width: 1100px){
+    .header{
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav{
+        text-align: center;
+    }
+
+    .info_block p{
+        width: 54%;
+    }
+
+    .easy_info{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .easy_text h2, p{
+        margin: 0 auto 0;
+    }
+
+    .easy_text{
+        padding-top: 110px;
+    }
+
+    .easy_text .li_nk{
+        padding-bottom: 45px;
+    }
+
+    .easy_img{
+        margin-bottom: 110px;
+    }
+
+    .features_info{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .features_block:not(:last-child){
+        margin-right: 0;
+    }
+
+    .features_info{
+        gap: 140px;
+    }
+
+
+}
+
+
+@media(max-width: 890px){
+    .focused_info{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;        
+    }
+
+    .focused_info .tx_im{
+        padding-right: 0;
+        padding-top: 63px;
+    }
+
+    .focused_info .tx_im p{
+        width: 80%;
+    }
+
+    .focused_info .tx_im .im{
+        padding-bottom: 40px;
+    }
+
+    .one_im{
+        padding-bottom: 63px;
+    }
+
+    .one_im img{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 760px){
+    .info{
+        padding: 200px 0 100px 0;
+    }
+
+    .technology_block{
+        flex-wrap: wrap;
+    }
+
+    .technology h2{
+        padding-bottom: 0;
+    }
+
+    .technology{
+        padding-bottom: 63px;
+    }
+
+    .block2:not(:last-child){
+        margin-right: 0;
+    }
+
+    .block2{
+        width: 40%;
+        margin: 0 auto 0;
+    }
+
+    .block2:not(:last-child){
+        margin: 0 auto 0;
+    }
+
+    .contact_info{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact_info .tx2{
+        padding-bottom: 0;
+        padding-top: 63px;
+    }
+
+    .contact_input{
+        padding-top: 50px;
+        padding-bottom: 63px;
+    }
+
+    .cont_i{
+        flex-direction: column;
+    }
+
+    .cont_inp{
+        margin: 0 auto 24px;
+    }
+
+    .cont_inp:first-child, .cont_inp:last-child{
+        width: 100%;
+    }
+
+    .cont_inp:last-child{
+        margin-bottom: 0;
+    }
+
+    .easy_text{
+        padding-top: 63px;
+    }
+
+    .easy_img{
+        margin-bottom: 63px;
+    }
+
+    .features{
+        padding-bottom: 190px;
+    }
+
+    .focused_info .tx_im{
+        padding-top: 63px;
+    }
+
+    /* .focused_info .im{
+        padding-bottom: 63px;
+    } */
+
+    .footer_info{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* justify-content: center;
+        text-align: center; */
+    }
+
+    .ft_block{
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+    .ft_block h3{
+        padding-bottom: 10px;
+    }
+
+    .ft_block1{
+        padding-top: 63px;
+    }
+    
+    .ft_block4{
+        padding-bottom: 0;
+    }
+
+    .ft_block2 ul{
+        text-align: start;
+    }
+
+    .footer_info .ft_block1_tx1{
+        padding-bottom: 33px;
+    }
+}
+
+
+@media(max-width: 580px){
+    .info_block h1{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .info_block p{
+        font-size: 18px;
+    }
+
+    .easy_img{
+        height: 237.609px;
+    }
+
+    .easy_img img{
+        width: 340px;
+    }
+
+    .block2{
+        width: 80%;
+    }
+
+    .one_im{
+        height: 263px;
+        width: 400px;
+    }
+
+    .one_im img{
+        /* height: 80%; */
+    }
+}
+
+
+@media(max-width: 480px){
+    .one_im{
+        height: 263px;
+        width: 300px;
+    }
+
+    .one_im img{
+        width: 94%;
+        /* height: 80%; */
+    }
+}
+
+
+@media(max-width: 380px){
+    .easy_img{
+        width: 290px;
+        height: 202.672px;
+    }
+
+    .easy_img img{
+        width: 290px;
+    }
+
+
+    .features_block{
+        width: 290px;
+        height: 202.672px;
+    }
+
+    .features_block img{
+        width: 290px;
+        height: 202.672px;
+    }
+
+    .block{
+        width: 200px;
+        height: 170px;
+        padding: 0;
+    }
+
+
+    .one_im{
+        height: 243px;
+    }
+
+    .one_im img{
+        /* width: 54%; */
+    }
+}
